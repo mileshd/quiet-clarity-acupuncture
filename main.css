@@ -27,7 +27,7 @@ h1, h2, h3, h4 {
 }
 @media screen and (min-width: 768px) {
   .row {
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
   }
 }
 
@@ -52,6 +52,25 @@ h1, h2, h3, h4 {
   .btn-container {
     text-align: left;
   }
+}
+
+.home__pitch {
+  text-align: center;
+}
+.home__pitch h1,
+.home__pitch h3 {
+  text-align: center;
+}
+.home__pitch .content {
+  margin-bottom: 25px;
+}
+.home__pitch .image-container {
+  display: inline-block;
+  text-align: center;
+}
+.home__pitch .image {
+  display: inline-block;
+  max-width: 250px;
 }
 
 .contact {
