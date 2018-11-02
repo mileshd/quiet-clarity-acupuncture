@@ -47,7 +47,9 @@
 
   <div class="home container">
     <div class="row home__pitch">
-      <img class="col-xs-12 col-sm-5 home__pitch__image" src="./images/pitch.jpg">
+      <div class="col-xs-12 col-sm-5 image-container">
+        <img class="image" src="./images/pitch.jpg">
+      </div>
       <div class="col-xs-12 col-sm-7 home__pitch__content">
         <h2>Quiet Clarity Acupuncture</h2>
         <p>
@@ -60,24 +62,32 @@
     </div>
 
     <div class="row home__acupuncture">
-      <div class="col-xs-12 col-sm-7 home__acupuncture__content">
+      <div class="col-xs-12 col-sm-5 image-container">
+        <img class="image" src="./images/acupuncture-pitch.gif">
+      </div>
+      <div class="col-xs-12 col-sm-7 content">
         <h2>Acupuncture</h2>
         <p>
           Traditional Five Element acupuncture is an ancient Chinese practice, effective in treating a wide range of ailments. It is helpful for many severe chronic illnesses, complaints that have no easily determined cause, as well as lingering conditions.
         </p>
-        <button class="button" id="acupuncture-link">Learn More</button>
+        <div class="btn-container">
+          <button class="btn btn-default" id="acupuncture-link">Learn More</button>
+        </div>
       </div>
-      <img class="col-xs-12 col-sm-5 home__acupuncture__image" src="./images/acupuncture-pitch.gif">
     </div>
 
     <div class="row home__zero-balancing">
-      <img class="col-xs-12 col-sm-5 home__acupuncture__image" src="./images/zb-logo.png">
-      <div class="col-xs-12 col-sm-7 home__zero-balancing__content">
+      <div class="col-xs-12 col-sm-5">
+        <img class="image" src="./images/zb-logo.png">
+      </div>
+      <div class="col-xs-12 col-sm-7">
         <h2>Zero Balancing</h2>
         <p>
           Zero Balancing (ZB) is a hands-on bodywork system designed to align your energy with your physical structure. Simple yet powerful, it focuses on your whole person, even when addressing specific needs.
         </p>
-        <button class="button" id="zero-balancing-link">Learn More</button>
+        <div class="btn-container">
+          <button class="btn btn-default" id="zero-balancing-link">Learn More</button>
+        </div>
       </div>
     </div>
 
@@ -87,7 +97,9 @@
         <p>
           I have been a practitioner of Five Element acupuncture over 20 years. I have a masters degree and have continued to study Five Element acupuncture extensively, through formal workshops and self-study, to deepen my understanding of this system of healing.
         </p>
-        <button class="button" id="about-me-link">Learn More</button>
+        <div class="btn-container">
+          <button class="btn btn-default" id="about-me-link">Learn More</button>
+        </div>
       </div>
     </div>
 
@@ -97,7 +109,9 @@
         <p>
           Experience healing in a tranquil, natural atmosphere, away from the noise and irritants of the city. We will spend an hour together, one-on-one in a private room to ensure an uninterrupted experience. 
         </p>
-        <button class="button" id="why-quiet-clarity-link">Learn More</button>
+        <div class="btn-container">
+          <button class="btn btn-default" id="why-quiet-clarity-link">Learn More</button>
+        </div>
       </div>
     </div>
 
@@ -127,7 +141,6 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <!--<script>-->
