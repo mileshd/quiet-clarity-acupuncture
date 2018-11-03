@@ -170,11 +170,17 @@ h1, h2, h3, h4 {
   margin: 15px;
 }
 
+.contact-container {
+  background-color: #cde5f2;
+  width: 100%;
+  padding: 25px;
+}
+.contact-home {
+  background-color: white;
+}
 .contact {
   max-width: 800px;
-  margin: 0px auto;
-  margin-bottom: 50px;
-}
-.contact .form-control {
-  margin: 15px 0;
+  margin: 100px auto;
+  margin-bottom: 0;
+  min-height: 200px;
 }
