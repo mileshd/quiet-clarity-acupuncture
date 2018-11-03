@@ -26,6 +26,28 @@ h1, h2, h3, h4 {
 .navbar-nav {
   text-align: center;
 }
+.navbar-header .brand-container {
+  display: inline-block;
+  height: 100%;
+  padding-left: 15px;
+  margin-bottom: -10px;
+}
+.navbar-header .brand-container.active,
+.navbar-header .brand-container.active:hover {
+  background-color: white;
+}
+.navbar-header .brand-container.active .navbar-brand:hover,
+.navbar-header .brand-container.active .navbar-brand {
+  color: #555;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: white;
+  color: #555;
+}
+
 @media screen and (min-width: 768px) {
   .navbar-nav {
     text-align: left;
@@ -126,6 +148,26 @@ h1, h2, h3, h4 {
 }
 .home__why .content p {
   margin-bottom: 25px;
+}
+
+.acupuncture__pitch {
+  text-align: center;
+}
+.acupuncture h1,
+.acupuncture h3 {
+  text-align: center;
+}
+.acupuncture .content {
+  margin-bottom: 25px;
+}
+.acupuncture .image-container {
+  display: inline-block;
+  text-align: center;
+}
+.acupuncture .image {
+  display: inline-block;
+  max-width: 250px;
+  margin: 15px;
 }
 
 .contact {
