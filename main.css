@@ -6,6 +6,7 @@ body {
   font-size: 2rem;
   line-height: 1.6;
   font-weight: 400;
+  margin-top: 60px;
 }
 
 h1, h2, h3, h4 {
@@ -85,7 +86,13 @@ h1, h2, h3, h4 {
 .home__pitch .image {
   display: inline-block;
   max-width: 250px;
+  margin: 15px;
 }
+/*@media screen and (min-width: 768px) {*/
+  /*.home__pitch .image {*/
+    /*margin: 0 15px;*/
+  /*}*/
+/*}*/
 
 .home__acupuncture .content  {
   margin-top: 20px;
