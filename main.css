@@ -22,8 +22,22 @@ h1, h2, h3, h4 {
   font-size: 2rem;
 }
 
+.navbar-nav {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .navbar-nav {
+    text-align: left;
+  }
+}
+
+.navbar-default {
+  background-color: #cde5f2;
+  border: none;
+}
+
 .row {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 @media screen and (min-width: 768px) {
   .row {
@@ -71,6 +85,40 @@ h1, h2, h3, h4 {
 .home__pitch .image {
   display: inline-block;
   max-width: 250px;
+}
+
+.home__acupuncture .content  {
+  margin-top: 20px;
+}
+.home__acupuncture .content h2 {
+  margin-bottom: 25px;
+}
+.home__acupuncture .content p {
+  margin-bottom: 25px;
+}
+
+.home__zero-balancing .content  {
+  margin-top: 20px;
+}
+.home__zero-balancing .content h2 {
+  margin-bottom: 25px;
+}
+.home__zero-balancing .content p {
+  margin-bottom: 25px;
+}
+
+.home__about .content h2 {
+  margin-bottom: 25px;
+}
+.home__about .content p {
+  margin-bottom: 25px;
+}
+
+.home__why .content h2 {
+  margin-bottom: 25px;
+}
+.home__why .content p {
+  margin-bottom: 25px;
 }
 
 .contact {
