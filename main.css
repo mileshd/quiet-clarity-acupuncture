@@ -22,10 +22,29 @@ h1, h2, h3, h4 {
 .navbar-brand {
   font-size: 2rem;
 }
-
 .navbar-nav {
   text-align: center;
 }
+@media (min-width: 768px) and (max-width: 991px)  {
+  .navbar-brand,
+  .navbar-nav {
+    font-size: 1.5rem;
+  }
+}
+
+.navbar-toggle {
+  background-color: white;
+  border: none;
+}
+.navbar-toggle:active,
+.navbar-toggle:focus {
+  background-color: white;
+  border: none;
+}
+.navbar-default .navbar-collapse {
+  border: none;
+}
+
 .navbar-header .brand-container {
   display: inline-block;
   height: 100%;
@@ -157,6 +176,18 @@ h1, h2, h3, h4 {
 .acupuncture h3 {
   text-align: center;
 }
+.acupuncture .row {
+  margin-bottom: 50px;
+}
+.acupuncture .content h2 {
+  margin-bottom: 25px;
+}
+.acupuncture .content p {
+  margin-bottom: 25px;
+}
+.acupuncture .content li {
+  margin: 10px 0;
+}
 .acupuncture .content {
   margin-bottom: 25px;
 }
@@ -168,6 +199,33 @@ h1, h2, h3, h4 {
   display: inline-block;
   max-width: 250px;
   margin: 15px;
+}
+
+.about .image {
+  max-width: 300px;
+}
+.about .row {
+  margin-bottom: 50px;
+}
+.about h3 {
+  margin-bottom: 25px;
+}
+.about .content h2 {
+  margin-bottom: 25px;
+}
+.about .content p {
+  margin-bottom: 25px;
+}
+
+.about__description h2,
+.about__description h3, {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .about__description h2,
+  .about__description h3, {
+    text-align: left
+  }
 }
 
 .contact-container {
@@ -183,4 +241,5 @@ h1, h2, h3, h4 {
   margin: 100px auto;
   margin-bottom: 0;
   min-height: 200px;
+  padding: 0 25px;
 }
