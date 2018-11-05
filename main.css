@@ -197,11 +197,12 @@ h1, h2, h3, h4 {
 }
 .acupuncture .image {
   display: inline-block;
-  max-width: 250px;
+  max-width: 350px;
   margin: 15px;
 }
 
 .about .image {
+  margin-top: 25px;
   max-width: 300px;
 }
 .about .row {
@@ -216,6 +217,9 @@ h1, h2, h3, h4 {
 .about .content p {
   margin-bottom: 25px;
 }
+.about__faq .content p {
+  margin-bottom: 45px;
+}
 
 .about__description h2,
 .about__description h3, {
@@ -226,6 +230,19 @@ h1, h2, h3, h4 {
   .about__description h3, {
     text-align: left
   }
+}
+
+.why .row {
+  margin-bottom: 50px;
+}
+.why .image-container {
+  display: inline-block;
+  text-align: center;
+}
+.why .image {
+  display: inline-block;
+  max-width: 350px;
+  margin: 15px;
 }
 
 .contact-container {
