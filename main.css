@@ -134,6 +134,7 @@ h1, h2, h3, h4 {
   /*}*/
 /*}*/
 
+
 .home__acupuncture .content  {
   margin-top: 20px;
 }
@@ -197,10 +198,11 @@ h1, h2, h3, h4 {
 .acupuncture .image-container {
   display: inline-block;
   text-align: center;
+  margin-bottom: 25px;
 }
 .acupuncture .image {
   display: inline-block;
-  max-width: 350px;
+  max-width: 300px;
   margin: 15px;
 }
 
