@@ -229,6 +229,9 @@ h1, h2, h3, h4 {
 .about__faq .content p {
   margin-bottom: 45px;
 }
+.about .book {
+  text-decoration: underline;
+}
 
 .about__description h2,
 .about__description h3, {
