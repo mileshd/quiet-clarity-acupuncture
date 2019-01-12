@@ -176,6 +176,9 @@ h1, h2, h3, h4 {
 .home__why .content p {
   margin-bottom: 25px;
 }
+.home__why .image {
+  max-width: 350px;
+}
 
 .acupuncture__pitch {
   text-align: center;
