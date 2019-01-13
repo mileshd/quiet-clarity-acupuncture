@@ -1,7 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP|PT+Serif|Raleway|Lora');
 
 body {
-  font-family: 'Droid Serif', serif;
+  font-family: 'Lora', serif;
   font-size: 2rem;
   line-height: 1.6;
   font-weight: 400;
@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Droid Serif', serif;
+  font-family: 'Raleway', serif;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
@@ -19,6 +19,8 @@ h1, h2, h3, h4 {
 }
 
 .navbar-brand {
+  /*font-family: 'PT Serif';*/
+  font-family: 'Noto Serif JP';
   font-size: 2rem;
 }
 .navbar-nav {
