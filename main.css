@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP|PT+Serif|Raleway|Lora');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP|PT+Serif|Raleway|Lora|Cinzel');
 
 body {
   font-family: 'Lora', serif;
@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Raleway', serif;
+  font-family: 'Cinzel', serif;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
@@ -18,9 +18,12 @@ h1, h2, h3, h4 {
   }
 }
 
+.navbar {
+  font-family: 'Cinzel', serif;
+}
 .navbar-brand {
   /*font-family: 'PT Serif';*/
-  font-family: 'Noto Serif JP';
+  /*font-family: 'Noto Serif JP';*/
   font-size: 2rem;
 }
 .navbar-nav {
@@ -111,6 +114,9 @@ h1, h2, h3, h4 {
   }
 }
 
+.home .welcome-title {
+  font-family: 'Cinzel', serif;
+}
 .home .image-container {
   text-align: center;
 }
@@ -236,6 +242,12 @@ h1, h2, h3, h4 {
 }
 .about .book {
   text-decoration: underline;
+}
+.about h2 {
+  font-size: 34px;
+}
+.about h3 {
+  font-size: 26px;
 }
 
 .about__description h2,
