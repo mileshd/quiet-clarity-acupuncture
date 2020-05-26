@@ -296,3 +296,13 @@ h1, h2, h3, h4 {
   width: 100%;
   max-width: 412px;
 }
+
+#covid-modal {
+  margin-top: 40px;
+}
+#covid-modal .modal-title {
+  font-size: 2.25rem;
+  display: inline-block;
+}
+#covid-modal .close-button {
+}

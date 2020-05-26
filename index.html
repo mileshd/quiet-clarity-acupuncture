@@ -14,7 +14,7 @@
     content="width=device-width, initial-scale=1"
   >
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="./main.css">
 </head>
 
@@ -126,6 +126,22 @@
         </div>
       </div>
     </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="covid-modal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title">Due to Covid-19, Business operations have changed.</div>
+          </div>
+          <div class="modal-body">
+            <p>I am open for business with limited appointments.</p>
+            <p>Zero balancing appointments are not available at this time.</p>
+            <p>Please keep checking back to see when I will be taking new clients.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <!--Contact-->
@@ -143,6 +159,12 @@
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-104463520-1', 'auto'); ga('send', 'pageview')
+  </script>
+
+  <script>
+    $(window).on('load',function(){
+      $('#covid-modal').modal('show');
+    });
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
